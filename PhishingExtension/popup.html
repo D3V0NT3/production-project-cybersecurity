@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Phishing Guard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+
+    <div class="header">
+      <div class="logo">🛡</div>
+      <div>
+        <h1>Phishing Guard</h1>
+        <p class="subheading">Website safety check</p>
+      </div>
+    </div>
+
+    <div class="status-section">
+      <div id="statusCircle" class="circle grey"></div>
+
+      <p id="statusText">Checking...</p>
+      <p id="statusMessage">Analyzing website...</p>
+
+      <span id="riskBadge" class="badge neutral">Unknown</span>
+    </div>
+
+    <div class="score-box">
+      <p>Risk Score</p>
+      <p id="scoreText">--%</p>
+
+      <div class="progress-container">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+    </div>
+
+    <div class="url-box">
+      <p>Current URL</p>
+      <p id="urlBox">No URL detected</p>
+    </div>
+
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
