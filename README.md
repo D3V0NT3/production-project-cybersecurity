@@ -83,19 +83,6 @@ The system achieved strong phishing detection performance, with a focus on ident
 
 The evaluation also identified limitations, including false positives for legitimate websites with long or complex URLs and dependency on the Flask API being available.
 
-## Repository Structure
-
-```text
-backend/        Flask API and prediction logic
-extension/      Chrome extension files
-model/          Trained model files
-data/           Dataset notes or sample data information
-docs/           Project documentation
-screenshots/    System screenshots
-tests/          Testing notes and evidence
-report/         Private or redacted report files
-```
-
 ## Installation and Usage
 
 ### 1. Run the Flask API
